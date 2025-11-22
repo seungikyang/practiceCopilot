@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc liblibrary_core.a CMakeFiles/library_core.dir/src/database.c.obj CMakeFiles/library_core.dir/src/book.c.obj CMakeFiles/library_core.dir/src/member.c.obj CMakeFiles/library_core.dir/src/loan.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe liblibrary_core.a

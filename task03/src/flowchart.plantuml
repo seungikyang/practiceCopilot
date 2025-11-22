@@ -1,0 +1,63 @@
+@startuml add_book_flowchart
+start
+
+:add_book(title, author, publisher, 
+publication_year, isbn, genre, quantity);
+
+:Get database connection;
+
+if (db == NULL?) then (yes)
+  :Print "Database not initialized";
+  :Return -1;
+  stop
+else (no)
+endif
+
+if (title == NULL OR isbn == NULL?) then (yes)
+  :Print "Title and ISBN are required";
+  :Return -1;
+  stop
+else (no)
+endif
+
+:Prepare SQL INSERT statement;
+note right
+  INSERT INTO Books
+  (title, author, publisher, 
+  publication_year, isbn, genre, 
+  quantity, available)
+  VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+end note
+
+if (Prepare failed?) then (yes)
+  :Print "Failed to prepare statement";
+  :Return -1;
+  stop
+else (no)
+endif
+
+:Bind parameter 1: title;
+:Bind parameter 2: author (or "");
+:Bind parameter 3: publisher (or "");
+:Bind parameter 4: publication_year;
+:Bind parameter 5: isbn;
+:Bind parameter 6: genre (or "");
+:Bind parameter 7: quantity;
+:Bind parameter 8: available = quantity;
+
+:Execute statement (sqlite3_step);
+:Finalize statement;
+
+if (Execution failed?) then (yes)
+  :Print "Failed to insert book";
+  :Return -1;
+  stop
+else (no)
+endif
+
+:Get last inserted row ID;
+:Print "Book added successfully (ID: xxx)";
+:Return 0;
+
+stop
+@enduml

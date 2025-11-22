@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.reviewSelection.instructions":[
+        {
+            "text": "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다. 클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다. 들여쓰기는 스페이스 2개로 한다."
+        }
+    ]
+}
