@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\___myProject\projects\task03
+CMAKE_SOURCE_DIR = C:\___myProject\practiceCopilot\task03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\___myProject\projects\task03\build
+CMAKE_BINARY_DIR = C:\___myProject\practiceCopilot\task03\build
 
 # Utility rule file for check.
 
@@ -67,7 +67,7 @@ include CMakeFiles/check.dir/progress.make
 
 CMakeFiles/check: bin/tests/test_book.exe
 CMakeFiles/check: bin/tests/test_book_gtest.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running all tests..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running all tests..."
 	"C:\Program Files\CMake\bin\ctest.exe" --output-on-failure
 
 CMakeFiles/check.dir/codegen:
@@ -86,6 +86,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\projects\task03 C:\___myProject\projects\task03 C:\___myProject\projects\task03\build C:\___myProject\projects\task03\build C:\___myProject\projects\task03\build\CMakeFiles\check.dir\DependInfo.cmake "--color=$(COLOR)" check
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\practiceCopilot\task03 C:\___myProject\practiceCopilot\task03 C:\___myProject\practiceCopilot\task03\build C:\___myProject\practiceCopilot\task03\build C:\___myProject\practiceCopilot\task03\build\CMakeFiles\check.dir\DependInfo.cmake "--color=$(COLOR)" check
 .PHONY : CMakeFiles/check.dir/depend
 

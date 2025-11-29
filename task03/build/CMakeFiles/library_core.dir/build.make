@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\___myProject\projects\task03
+CMAKE_SOURCE_DIR = C:\___myProject\practiceCopilot\task03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\___myProject\projects\task03\build
+CMAKE_BINARY_DIR = C:\___myProject\practiceCopilot\task03\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/library_core.dir/depend.make
@@ -73,63 +73,63 @@ CMakeFiles/library_core.dir/codegen:
 
 CMakeFiles/library_core.dir/src/database.c.obj: CMakeFiles/library_core.dir/flags.make
 CMakeFiles/library_core.dir/src/database.c.obj: CMakeFiles/library_core.dir/includes_C.rsp
-CMakeFiles/library_core.dir/src/database.c.obj: C:/___myProject/projects/task03/src/database.c
+CMakeFiles/library_core.dir/src/database.c.obj: C:/___myProject/practiceCopilot/task03/src/database.c
 CMakeFiles/library_core.dir/src/database.c.obj: CMakeFiles/library_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/library_core.dir/src/database.c.obj"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/database.c.obj -MF CMakeFiles\library_core.dir\src\database.c.obj.d -o CMakeFiles\library_core.dir\src\database.c.obj -c C:\___myProject\projects\task03\src\database.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/library_core.dir/src/database.c.obj"
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/database.c.obj -MF CMakeFiles\library_core.dir\src\database.c.obj.d -o CMakeFiles\library_core.dir\src\database.c.obj -c C:\___myProject\practiceCopilot\task03\src\database.c
 
 CMakeFiles/library_core.dir/src/database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/library_core.dir/src/database.c.i"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\projects\task03\src\database.c > CMakeFiles\library_core.dir\src\database.c.i
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\practiceCopilot\task03\src\database.c > CMakeFiles\library_core.dir\src\database.c.i
 
 CMakeFiles/library_core.dir/src/database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/library_core.dir/src/database.c.s"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\projects\task03\src\database.c -o CMakeFiles\library_core.dir\src\database.c.s
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\practiceCopilot\task03\src\database.c -o CMakeFiles\library_core.dir\src\database.c.s
 
 CMakeFiles/library_core.dir/src/book.c.obj: CMakeFiles/library_core.dir/flags.make
 CMakeFiles/library_core.dir/src/book.c.obj: CMakeFiles/library_core.dir/includes_C.rsp
-CMakeFiles/library_core.dir/src/book.c.obj: C:/___myProject/projects/task03/src/book.c
+CMakeFiles/library_core.dir/src/book.c.obj: C:/___myProject/practiceCopilot/task03/src/book.c
 CMakeFiles/library_core.dir/src/book.c.obj: CMakeFiles/library_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/library_core.dir/src/book.c.obj"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/book.c.obj -MF CMakeFiles\library_core.dir\src\book.c.obj.d -o CMakeFiles\library_core.dir\src\book.c.obj -c C:\___myProject\projects\task03\src\book.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/library_core.dir/src/book.c.obj"
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/book.c.obj -MF CMakeFiles\library_core.dir\src\book.c.obj.d -o CMakeFiles\library_core.dir\src\book.c.obj -c C:\___myProject\practiceCopilot\task03\src\book.c
 
 CMakeFiles/library_core.dir/src/book.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/library_core.dir/src/book.c.i"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\projects\task03\src\book.c > CMakeFiles\library_core.dir\src\book.c.i
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\practiceCopilot\task03\src\book.c > CMakeFiles\library_core.dir\src\book.c.i
 
 CMakeFiles/library_core.dir/src/book.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/library_core.dir/src/book.c.s"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\projects\task03\src\book.c -o CMakeFiles\library_core.dir\src\book.c.s
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\practiceCopilot\task03\src\book.c -o CMakeFiles\library_core.dir\src\book.c.s
 
 CMakeFiles/library_core.dir/src/member.c.obj: CMakeFiles/library_core.dir/flags.make
 CMakeFiles/library_core.dir/src/member.c.obj: CMakeFiles/library_core.dir/includes_C.rsp
-CMakeFiles/library_core.dir/src/member.c.obj: C:/___myProject/projects/task03/src/member.c
+CMakeFiles/library_core.dir/src/member.c.obj: C:/___myProject/practiceCopilot/task03/src/member.c
 CMakeFiles/library_core.dir/src/member.c.obj: CMakeFiles/library_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/library_core.dir/src/member.c.obj"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/member.c.obj -MF CMakeFiles\library_core.dir\src\member.c.obj.d -o CMakeFiles\library_core.dir\src\member.c.obj -c C:\___myProject\projects\task03\src\member.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/library_core.dir/src/member.c.obj"
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/member.c.obj -MF CMakeFiles\library_core.dir\src\member.c.obj.d -o CMakeFiles\library_core.dir\src\member.c.obj -c C:\___myProject\practiceCopilot\task03\src\member.c
 
 CMakeFiles/library_core.dir/src/member.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/library_core.dir/src/member.c.i"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\projects\task03\src\member.c > CMakeFiles\library_core.dir\src\member.c.i
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\practiceCopilot\task03\src\member.c > CMakeFiles\library_core.dir\src\member.c.i
 
 CMakeFiles/library_core.dir/src/member.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/library_core.dir/src/member.c.s"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\projects\task03\src\member.c -o CMakeFiles\library_core.dir\src\member.c.s
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\practiceCopilot\task03\src\member.c -o CMakeFiles\library_core.dir\src\member.c.s
 
 CMakeFiles/library_core.dir/src/loan.c.obj: CMakeFiles/library_core.dir/flags.make
 CMakeFiles/library_core.dir/src/loan.c.obj: CMakeFiles/library_core.dir/includes_C.rsp
-CMakeFiles/library_core.dir/src/loan.c.obj: C:/___myProject/projects/task03/src/loan.c
+CMakeFiles/library_core.dir/src/loan.c.obj: C:/___myProject/practiceCopilot/task03/src/loan.c
 CMakeFiles/library_core.dir/src/loan.c.obj: CMakeFiles/library_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/library_core.dir/src/loan.c.obj"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/loan.c.obj -MF CMakeFiles\library_core.dir\src\loan.c.obj.d -o CMakeFiles\library_core.dir\src\loan.c.obj -c C:\___myProject\projects\task03\src\loan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/library_core.dir/src/loan.c.obj"
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/library_core.dir/src/loan.c.obj -MF CMakeFiles\library_core.dir\src\loan.c.obj.d -o CMakeFiles\library_core.dir\src\loan.c.obj -c C:\___myProject\practiceCopilot\task03\src\loan.c
 
 CMakeFiles/library_core.dir/src/loan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/library_core.dir/src/loan.c.i"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\projects\task03\src\loan.c > CMakeFiles\library_core.dir\src\loan.c.i
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\___myProject\practiceCopilot\task03\src\loan.c > CMakeFiles\library_core.dir\src\loan.c.i
 
 CMakeFiles/library_core.dir/src/loan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/library_core.dir/src/loan.c.s"
-	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\projects\task03\src\loan.c -o CMakeFiles\library_core.dir\src\loan.c.s
+	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\___myProject\practiceCopilot\task03\src\loan.c -o CMakeFiles\library_core.dir\src\loan.c.s
 
 # Object files for target library_core
 library_core_OBJECTS = \
@@ -147,7 +147,7 @@ liblibrary_core.a: CMakeFiles/library_core.dir/src/member.c.obj
 liblibrary_core.a: CMakeFiles/library_core.dir/src/loan.c.obj
 liblibrary_core.a: CMakeFiles/library_core.dir/build.make
 liblibrary_core.a: CMakeFiles/library_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library liblibrary_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library liblibrary_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\library_core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\library_core.dir\link.txt --verbose=$(VERBOSE)
 
@@ -160,6 +160,6 @@ CMakeFiles/library_core.dir/clean:
 .PHONY : CMakeFiles/library_core.dir/clean
 
 CMakeFiles/library_core.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\projects\task03 C:\___myProject\projects\task03 C:\___myProject\projects\task03\build C:\___myProject\projects\task03\build C:\___myProject\projects\task03\build\CMakeFiles\library_core.dir\DependInfo.cmake "--color=$(COLOR)" library_core
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\practiceCopilot\task03 C:\___myProject\practiceCopilot\task03 C:\___myProject\practiceCopilot\task03\build C:\___myProject\practiceCopilot\task03\build C:\___myProject\practiceCopilot\task03\build\CMakeFiles\library_core.dir\DependInfo.cmake "--color=$(COLOR)" library_core
 .PHONY : CMakeFiles/library_core.dir/depend
 

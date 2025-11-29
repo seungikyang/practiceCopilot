@@ -1,1 +1,1 @@
--IC:/___myProject/projects/task03/include -I"C:/___myProject/projects/task03/build/_deps/googletest-src/googletest/include" -I"C:/___myProject/projects/task03/build/_deps/googletest-src/googletest"
+-IC:/___myProject/practiceCopilot/task03/include -I"C:/___myProject/practiceCopilot/task03/build/_deps/googletest-src/googletest/include" -I"C:/___myProject/practiceCopilot/task03/build/_deps/googletest-src/googletest"

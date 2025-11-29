@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\___myProject\projects\task03
+CMAKE_SOURCE_DIR = C:\___myProject\practiceCopilot\task03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\___myProject\projects\task03\build
+CMAKE_BINARY_DIR = C:\___myProject\practiceCopilot\task03\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -141,14 +141,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\projects\task03\build\CMakeFiles C:\___myProject\projects\task03\build\tests\\CMakeFiles\progress.marks
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\projects\task03\build\CMakeFiles 0
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\practiceCopilot\task03\build\CMakeFiles C:\___myProject\practiceCopilot\task03\build\tests\\CMakeFiles\progress.marks
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\practiceCopilot\task03\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/clean
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,22 +157,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/test_book.dir/rule:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/test_book.dir/rule
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/test_book.dir/rule
 .PHONY : tests/CMakeFiles/test_book.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ test_book: tests/CMakeFiles/test_book.dir/rule
 
 # fast build rule for target.
 test_book/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/build
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/build
 .PHONY : test_book/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test_book_gtest.dir/rule:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/test_book_gtest.dir/rule
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/test_book_gtest.dir/rule
 .PHONY : tests/CMakeFiles/test_book_gtest.dir/rule
 
 # Convenience name for target.
@@ -195,7 +195,7 @@ test_book_gtest: tests/CMakeFiles/test_book_gtest.dir/rule
 
 # fast build rule for target.
 test_book_gtest/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/build
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/build
 .PHONY : test_book_gtest/fast
 
 test_book.obj: test_book.c.obj
@@ -203,7 +203,7 @@ test_book.obj: test_book.c.obj
 
 # target to build an object file
 test_book.c.obj:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.obj
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.obj
 .PHONY : test_book.c.obj
 
 test_book.i: test_book.c.i
@@ -211,7 +211,7 @@ test_book.i: test_book.c.i
 
 # target to preprocess a source file
 test_book.c.i:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.i
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.i
 .PHONY : test_book.c.i
 
 test_book.s: test_book.c.s
@@ -219,7 +219,7 @@ test_book.s: test_book.c.s
 
 # target to generate assembly for a file
 test_book.c.s:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.s
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book.dir\build.make tests/CMakeFiles/test_book.dir/test_book.c.s
 .PHONY : test_book.c.s
 
 test_book_gtest.obj: test_book_gtest.cpp.obj
@@ -227,7 +227,7 @@ test_book_gtest.obj: test_book_gtest.cpp.obj
 
 # target to build an object file
 test_book_gtest.cpp.obj:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj
 .PHONY : test_book_gtest.cpp.obj
 
 test_book_gtest.i: test_book_gtest.cpp.i
@@ -235,7 +235,7 @@ test_book_gtest.i: test_book_gtest.cpp.i
 
 # target to preprocess a source file
 test_book_gtest.cpp.i:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.i
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.i
 .PHONY : test_book_gtest.cpp.i
 
 test_book_gtest.s: test_book_gtest.cpp.s
@@ -243,7 +243,7 @@ test_book_gtest.s: test_book_gtest.cpp.s
 
 # target to generate assembly for a file
 test_book_gtest.cpp.s:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.s
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_book_gtest.dir\build.make tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.s
 .PHONY : test_book_gtest.cpp.s
 
 # Help Target
@@ -278,6 +278,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

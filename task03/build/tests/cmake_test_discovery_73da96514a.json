@@ -8,147 +8,147 @@
       "testsuite": [
         {
           "name": "AddBookSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 120
         },
         {
           "name": "AddBookNullTitle",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 131
         },
         {
           "name": "AddBookNullDatabase",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 139
         },
         {
           "name": "AddBookDuplicateISBN",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 152
         },
         {
           "name": "SearchBooksSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 170
         },
         {
           "name": "SearchBooksNoResults",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 182
         },
         {
           "name": "SearchBooksNullKeyword",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 191
         },
         {
           "name": "SearchBooksPartialMatch",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 197
         },
         {
           "name": "GetBookByIdSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 210
         },
         {
           "name": "GetBookByIdNotFound",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 229
         },
         {
           "name": "GetBookByIdNullBook",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 236
         },
         {
           "name": "UpdateBookSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 252
         },
         {
           "name": "UpdateBookNotFound",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 272
         },
         {
           "name": "UpdateBookPartialUpdate",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 278
         },
         {
           "name": "UpdateBookNullDatabase",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 296
         },
         {
           "name": "DeleteBookSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 312
         },
         {
           "name": "DeleteBookNotFound",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 327
         },
         {
           "name": "CheckBookAvailabilityAvailable",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 337
         },
         {
           "name": "CheckBookAvailabilityNotAvailable",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 349
         },
         {
           "name": "CheckBookAvailabilityNotFound",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 369
         },
         {
           "name": "UpdateBookAvailabilityIncrease",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 375
         },
         {
           "name": "UpdateBookAvailabilityDecrease",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 391
         },
         {
           "name": "SearchBooksByGenreSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 411
         },
         {
           "name": "SearchBooksByGenreNoResults",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 424
         },
         {
           "name": "SearchBooksByAuthorSuccess",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 433
         },
         {
           "name": "SearchBooksByAuthorNoResults",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 446
         },
         {
           "name": "SearchBooksByAuthorNullAuthor",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 455
         },
         {
           "name": "DisplayAllBooks",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 465
         },
         {
           "name": "DisplayAllBooksEmpty",
-          "file": "C:\\___myProject\\projects\\task03\\tests\\test_book_gtest.cpp",
+          "file": "C:\\___myProject\\practiceCopilot\\task03\\tests\\test_book_gtest.cpp",
           "line": 474
         }
       ]

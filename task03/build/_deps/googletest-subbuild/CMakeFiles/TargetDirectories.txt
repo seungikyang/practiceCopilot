@@ -1,3 +1,3 @@
-C:/___myProject/projects/task03/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-C:/___myProject/projects/task03/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-C:/___myProject/projects/task03/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+C:/___myProject/practiceCopilot/task03/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/___myProject/practiceCopilot/task03/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/___myProject/practiceCopilot/task03/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\___myProject\projects\task03
+CMAKE_SOURCE_DIR = C:\___myProject\practiceCopilot\task03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\___myProject\projects\task03\build
+CMAKE_BINARY_DIR = C:\___myProject\practiceCopilot\task03\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -141,14 +141,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\projects\task03\build\CMakeFiles C:\___myProject\projects\task03\build\_deps\googletest-build\googlemock\\CMakeFiles\progress.marks
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\projects\task03\build\CMakeFiles 0
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\practiceCopilot\task03\build\CMakeFiles C:\___myProject\practiceCopilot\task03\build\_deps\googletest-build\googlemock\\CMakeFiles\progress.marks
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\___myProject\practiceCopilot\task03\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/clean
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,22 +157,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/preinstall
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/preinstall
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 # Convenience name for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -195,7 +195,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 src/gmock-all.obj: src/gmock-all.cc.obj
@@ -203,7 +203,7 @@ src/gmock-all.obj: src/gmock-all.cc.obj
 
 # target to build an object file
 src/gmock-all.cc.obj:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
 .PHONY : src/gmock-all.cc.obj
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -211,7 +211,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -219,7 +219,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.obj: src/gmock_main.cc.obj
@@ -227,7 +227,7 @@ src/gmock_main.obj: src/gmock_main.cc.obj
 
 # target to build an object file
 src/gmock_main.cc.obj:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
 .PHONY : src/gmock_main.cc.obj
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -235,7 +235,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -243,7 +243,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /d C:\___myProject\projects\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -278,6 +278,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\___myProject\projects\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\___myProject\practiceCopilot\task03\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

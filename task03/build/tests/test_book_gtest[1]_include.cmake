@@ -1,5 +1,5 @@
-if(EXISTS "C:/___myProject/projects/task03/build/tests/test_book_gtest[1]_tests.cmake")
-  include("C:/___myProject/projects/task03/build/tests/test_book_gtest[1]_tests.cmake")
+if(EXISTS "C:/___myProject/practiceCopilot/task03/build/tests/test_book_gtest[1]_tests.cmake")
+  include("C:/___myProject/practiceCopilot/task03/build/tests/test_book_gtest[1]_tests.cmake")
 else()
   add_test(test_book_gtest_NOT_BUILT test_book_gtest_NOT_BUILT)
 endif()

@@ -1,10 +1,10 @@
-Start testing: Nov 22 17:09 대한민국 표준시
+Start testing: Nov 29 11:24 대한민국 표준시
 ----------------------------------------------------------
 1/31 Testing: BookTest.AddBookSuccess
 1/31 Test: BookTest.AddBookSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.AddBookSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.AddBookSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.AddBookSuccess
@@ -13,25 +13,25 @@ Note: Google Test filter = BookTest.AddBookSuccess
 [----------] 1 test from BookTest
 [ RUN      ] BookTest.AddBookSuccess
 Book added successfully (ID: 1)
-[       OK ] BookTest.AddBookSuccess (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.AddBookSuccess (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.AddBookSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.AddBookSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.AddBookSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/31 Testing: BookTest.AddBookNullTitle
 2/31 Test: BookTest.AddBookNullTitle
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookNullTitle" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.AddBookNullTitle" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookNullTitle" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.AddBookNullTitle" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.AddBookNullTitle
@@ -47,18 +47,18 @@ Title and ISBN are required
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.AddBookNullTitle" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.AddBookNullTitle" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.AddBookNullTitle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/31 Testing: BookTest.AddBookNullDatabase
 3/31 Test: BookTest.AddBookNullDatabase
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookNullDatabase" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.AddBookNullDatabase" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookNullDatabase" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.AddBookNullDatabase" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.AddBookNullDatabase
@@ -74,18 +74,18 @@ Database not initialized
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.AddBookNullDatabase" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.AddBookNullDatabase" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.AddBookNullDatabase" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 4/31 Testing: BookTest.AddBookDuplicateISBN
 4/31 Test: BookTest.AddBookDuplicateISBN
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookDuplicateISBN" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.AddBookDuplicateISBN" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.AddBookDuplicateISBN" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.AddBookDuplicateISBN" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.AddBookDuplicateISBN
@@ -95,25 +95,25 @@ Note: Google Test filter = BookTest.AddBookDuplicateISBN
 [ RUN      ] BookTest.AddBookDuplicateISBN
 Failed to insert book: UNIQUE constraint failed: Books.isbn
 Book added successfully (ID: 1)
-[       OK ] BookTest.AddBookDuplicateISBN (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.AddBookDuplicateISBN (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.AddBookDuplicateISBN" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.AddBookDuplicateISBN" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.AddBookDuplicateISBN" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 5/31 Testing: BookTest.SearchBooksSuccess
 5/31 Test: BookTest.SearchBooksSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksSuccess
@@ -135,21 +135,21 @@ Total books found: 2
 [----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 6/31 Testing: BookTest.SearchBooksNoResults
 6/31 Test: BookTest.SearchBooksNoResults
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksNoResults" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksNoResults" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksNoResults" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksNoResults" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksNoResults
@@ -164,25 +164,25 @@ ID    Title                          Author               Publisher            Y
 ---------------------------------------------------------------------------------------------------------------------------
 
 Total books found: 0
-[       OK ] BookTest.SearchBooksNoResults (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.SearchBooksNoResults (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksNoResults" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksNoResults" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksNoResults" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 7/31 Testing: BookTest.SearchBooksNullKeyword
 7/31 Test: BookTest.SearchBooksNullKeyword
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksNullKeyword" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksNullKeyword" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksNullKeyword" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksNullKeyword" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksNullKeyword
@@ -198,18 +198,18 @@ Search keyword is required
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksNullKeyword" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksNullKeyword" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksNullKeyword" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 8/31 Testing: BookTest.SearchBooksPartialMatch
 8/31 Test: BookTest.SearchBooksPartialMatch
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksPartialMatch" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksPartialMatch" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksPartialMatch" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksPartialMatch" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksPartialMatch
@@ -225,25 +225,25 @@ ID    Title                          Author               Publisher            Y
 1     The Great Gatsby               F. Scott Fitzgerald  Scribner             1925   1111111111      Fiction         2        2       
 
 Total books found: 1
-[       OK ] BookTest.SearchBooksPartialMatch (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.SearchBooksPartialMatch (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksPartialMatch" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksPartialMatch" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksPartialMatch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 9/31 Testing: BookTest.GetBookByIdSuccess
 9/31 Test: BookTest.GetBookByIdSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.GetBookByIdSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.GetBookByIdSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.GetBookByIdSuccess
@@ -256,21 +256,21 @@ Book added successfully (ID: 1)
 [----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.GetBookByIdSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.GetBookByIdSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.GetBookByIdSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 10/31 Testing: BookTest.GetBookByIdNotFound
 10/31 Test: BookTest.GetBookByIdNotFound
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdNotFound" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.GetBookByIdNotFound" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.GetBookByIdNotFound" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.GetBookByIdNotFound
@@ -286,18 +286,18 @@ Book not found (ID: 99999)
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.GetBookByIdNotFound" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.GetBookByIdNotFound" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.GetBookByIdNotFound" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 11/31 Testing: BookTest.GetBookByIdNullBook
 11/31 Test: BookTest.GetBookByIdNullBook
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdNullBook" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.GetBookByIdNullBook" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.GetBookByIdNullBook" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.GetBookByIdNullBook" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.GetBookByIdNullBook
@@ -307,25 +307,25 @@ Note: Google Test filter = BookTest.GetBookByIdNullBook
 [ RUN      ] BookTest.GetBookByIdNullBook
 Book pointer is NULL
 Book added successfully (ID: 1)
-[       OK ] BookTest.GetBookByIdNullBook (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.GetBookByIdNullBook (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.GetBookByIdNullBook" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.GetBookByIdNullBook" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.GetBookByIdNullBook" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 12/31 Testing: BookTest.UpdateBookSuccess
 12/31 Test: BookTest.UpdateBookSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookSuccess
@@ -339,21 +339,21 @@ Book updated successfully
 [----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 13/31 Testing: BookTest.UpdateBookNotFound
 13/31 Test: BookTest.UpdateBookNotFound
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookNotFound" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookNotFound" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookNotFound" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookNotFound
@@ -372,15 +372,15 @@ Book not found (ID: 99999)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookNotFound" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookNotFound" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookNotFound" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 14/31 Testing: BookTest.UpdateBookPartialUpdate
 14/31 Test: BookTest.UpdateBookPartialUpdate
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookPartialUpdate" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookPartialUpdate" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookPartialUpdate" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookPartialUpdate" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookPartialUpdate
@@ -390,25 +390,25 @@ Note: Google Test filter = BookTest.UpdateBookPartialUpdate
 [ RUN      ] BookTest.UpdateBookPartialUpdate
 Book added successfully (ID: 1)
 Book updated successfully
-[       OK ] BookTest.UpdateBookPartialUpdate (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.UpdateBookPartialUpdate (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookPartialUpdate" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookPartialUpdate" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookPartialUpdate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 15/31 Testing: BookTest.UpdateBookNullDatabase
 15/31 Test: BookTest.UpdateBookNullDatabase
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookNullDatabase" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookNullDatabase" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookNullDatabase" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookNullDatabase" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookNullDatabase
@@ -424,18 +424,18 @@ Database not initialized
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookNullDatabase" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookNullDatabase" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookNullDatabase" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 16/31 Testing: BookTest.DeleteBookSuccess
 16/31 Test: BookTest.DeleteBookSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DeleteBookSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.DeleteBookSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DeleteBookSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.DeleteBookSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.DeleteBookSuccess
@@ -446,25 +446,25 @@ Note: Google Test filter = BookTest.DeleteBookSuccess
 Book not found (ID: 1)
 Book added successfully (ID: 1)
 Book deleted successfully
-[       OK ] BookTest.DeleteBookSuccess (0 ms)
-[----------] 1 test from BookTest (0 ms total)
+[       OK ] BookTest.DeleteBookSuccess (1 ms)
+[----------] 1 test from BookTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.DeleteBookSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.DeleteBookSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.DeleteBookSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 17/31 Testing: BookTest.DeleteBookNotFound
 17/31 Test: BookTest.DeleteBookNotFound
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DeleteBookNotFound" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.DeleteBookNotFound" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DeleteBookNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.DeleteBookNotFound" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.DeleteBookNotFound
@@ -483,15 +483,15 @@ Book not found (ID: 99999)
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.DeleteBookNotFound" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.DeleteBookNotFound" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.DeleteBookNotFound" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 18/31 Testing: BookTest.CheckBookAvailabilityAvailable
 18/31 Test: BookTest.CheckBookAvailabilityAvailable
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityAvailable" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.CheckBookAvailabilityAvailable" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityAvailable" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.CheckBookAvailabilityAvailable" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.CheckBookAvailabilityAvailable
@@ -507,18 +507,18 @@ Book added successfully (ID: 1)
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.CheckBookAvailabilityAvailable" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.CheckBookAvailabilityAvailable" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.CheckBookAvailabilityAvailable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 19/31 Testing: BookTest.CheckBookAvailabilityNotAvailable
 19/31 Test: BookTest.CheckBookAvailabilityNotAvailable
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityNotAvailable" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.CheckBookAvailabilityNotAvailable" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityNotAvailable" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.CheckBookAvailabilityNotAvailable" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.CheckBookAvailabilityNotAvailable
@@ -534,18 +534,18 @@ Book added successfully (ID: 1)
 [==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.CheckBookAvailabilityNotAvailable" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.CheckBookAvailabilityNotAvailable" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.CheckBookAvailabilityNotAvailable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 20/31 Testing: BookTest.CheckBookAvailabilityNotFound
 20/31 Test: BookTest.CheckBookAvailabilityNotFound
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityNotFound" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.CheckBookAvailabilityNotFound" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.CheckBookAvailabilityNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.CheckBookAvailabilityNotFound" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.CheckBookAvailabilityNotFound
@@ -554,25 +554,25 @@ Note: Google Test filter = BookTest.CheckBookAvailabilityNotFound
 [----------] 1 test from BookTest
 [ RUN      ] BookTest.CheckBookAvailabilityNotFound
 Book not found (ID: 99999)
-[       OK ] BookTest.CheckBookAvailabilityNotFound (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.CheckBookAvailabilityNotFound (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.CheckBookAvailabilityNotFound" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.CheckBookAvailabilityNotFound" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.CheckBookAvailabilityNotFound" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 21/31 Testing: BookTest.UpdateBookAvailabilityIncrease
 21/31 Test: BookTest.UpdateBookAvailabilityIncrease
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookAvailabilityIncrease" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookAvailabilityIncrease" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookAvailabilityIncrease" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookAvailabilityIncrease" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookAvailabilityIncrease
@@ -588,18 +588,18 @@ Book added successfully (ID: 1)
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookAvailabilityIncrease" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookAvailabilityIncrease" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookAvailabilityIncrease" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 22/31 Testing: BookTest.UpdateBookAvailabilityDecrease
 22/31 Test: BookTest.UpdateBookAvailabilityDecrease
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookAvailabilityDecrease" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.UpdateBookAvailabilityDecrease" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.UpdateBookAvailabilityDecrease" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.UpdateBookAvailabilityDecrease" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.UpdateBookAvailabilityDecrease
@@ -608,25 +608,25 @@ Note: Google Test filter = BookTest.UpdateBookAvailabilityDecrease
 [----------] 1 test from BookTest
 [ RUN      ] BookTest.UpdateBookAvailabilityDecrease
 Book added successfully (ID: 1)
-[       OK ] BookTest.UpdateBookAvailabilityDecrease (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.UpdateBookAvailabilityDecrease (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (2 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.UpdateBookAvailabilityDecrease" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.UpdateBookAvailabilityDecrease" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.UpdateBookAvailabilityDecrease" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 23/31 Testing: BookTest.SearchBooksByGenreSuccess
 23/31 Test: BookTest.SearchBooksByGenreSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByGenreSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksByGenreSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByGenreSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksByGenreSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksByGenreSuccess
@@ -649,21 +649,21 @@ Total books found: 2
 [----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksByGenreSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksByGenreSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksByGenreSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 24/31 Testing: BookTest.SearchBooksByGenreNoResults
 24/31 Test: BookTest.SearchBooksByGenreNoResults
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByGenreNoResults" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksByGenreNoResults" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByGenreNoResults" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksByGenreNoResults" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksByGenreNoResults
@@ -688,15 +688,15 @@ Total books found: 0
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksByGenreNoResults" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksByGenreNoResults" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksByGenreNoResults" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 25/31 Testing: BookTest.SearchBooksByAuthorSuccess
 25/31 Test: BookTest.SearchBooksByAuthorSuccess
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorSuccess" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksByAuthorSuccess" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksByAuthorSuccess" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksByAuthorSuccess
@@ -715,25 +715,25 @@ ID    Title                          Publisher            Year   ISBN           
 2     Book 2                         Publisher 2          2024   2222222222      Science         5        5       
 
 Total books found: 2
-[       OK ] BookTest.SearchBooksByAuthorSuccess (1 ms)
-[----------] 1 test from BookTest (1 ms total)
+[       OK ] BookTest.SearchBooksByAuthorSuccess (0 ms)
+[----------] 1 test from BookTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksByAuthorSuccess" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksByAuthorSuccess" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksByAuthorSuccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 26/31 Testing: BookTest.SearchBooksByAuthorNoResults
 26/31 Test: BookTest.SearchBooksByAuthorNoResults
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorNoResults" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksByAuthorNoResults" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorNoResults" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksByAuthorNoResults" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksByAuthorNoResults
@@ -755,18 +755,18 @@ Total books found: 0
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksByAuthorNoResults" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksByAuthorNoResults" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksByAuthorNoResults" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 27/31 Testing: BookTest.SearchBooksByAuthorNullAuthor
 27/31 Test: BookTest.SearchBooksByAuthorNullAuthor
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorNullAuthor" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.SearchBooksByAuthorNullAuthor" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.SearchBooksByAuthorNullAuthor" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.SearchBooksByAuthorNullAuthor" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.SearchBooksByAuthorNullAuthor
@@ -785,15 +785,15 @@ Author name is required
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.SearchBooksByAuthorNullAuthor" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.SearchBooksByAuthorNullAuthor" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.SearchBooksByAuthorNullAuthor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 28/31 Testing: BookTest.DisplayAllBooks
 28/31 Test: BookTest.DisplayAllBooks
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DisplayAllBooks" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.DisplayAllBooks" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DisplayAllBooks" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.DisplayAllBooks" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.DisplayAllBooks
@@ -818,18 +818,18 @@ Total books: 2
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.DisplayAllBooks" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.DisplayAllBooks" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.DisplayAllBooks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 29/31 Testing: BookTest.DisplayAllBooksEmpty
 29/31 Test: BookTest.DisplayAllBooksEmpty
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DisplayAllBooksEmpty" "--gtest_also_run_disabled_tests"
-Directory: C:/___myProject/projects/task03/build/tests
-"BookTest.DisplayAllBooksEmpty" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe" "--gtest_filter=BookTest.DisplayAllBooksEmpty" "--gtest_also_run_disabled_tests"
+Directory: C:/___myProject/practiceCopilot/task03/build/tests
+"BookTest.DisplayAllBooksEmpty" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BookTest.DisplayAllBooksEmpty
@@ -850,18 +850,18 @@ Total books: 0
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"BookTest.DisplayAllBooksEmpty" end time: Nov 22 17:09 대한민국 표준시
+"BookTest.DisplayAllBooksEmpty" end time: Nov 29 11:24 대한민국 표준시
 "BookTest.DisplayAllBooksEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 30/31 Testing: BookModuleTests
 30/31 Test: BookModuleTests
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book.exe"
-Directory: C:/___myProject/projects/task03/build
-"BookModuleTests" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book.exe"
+Directory: C:/___myProject/practiceCopilot/task03/build
+"BookModuleTests" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Cannot open database: unable to open database file
@@ -877,15 +877,15 @@ Failed to initialize test database
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BookModuleTests" end time: Nov 22 17:09 대한민국 표준시
+"BookModuleTests" end time: Nov 29 11:24 대한민국 표준시
 "BookModuleTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 31/31 Testing: BookModuleGoogleTests
 31/31 Test: BookModuleGoogleTests
-Command: "C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe"
-Directory: C:/___myProject/projects/task03/build
-"BookModuleGoogleTests" start time: Nov 22 17:09 대한민국 표준시
+Command: "C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe"
+Directory: C:/___myProject/practiceCopilot/task03/build
+"BookModuleGoogleTests" start time: Nov 29 11:24 대한민국 표준시
 Output:
 ----------------------------------------------------------
 [==========] Running 29 tests from 1 test suite.
@@ -1058,18 +1058,18 @@ Total books: 0
 [==========] 29 tests from 1 test suite ran. (5 ms total)
 [  PASSED  ] 29 tests.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"BookModuleGoogleTests" end time: Nov 22 17:09 대한민국 표준시
+"BookModuleGoogleTests" end time: Nov 29 11:24 대한민국 표준시
 "BookModuleGoogleTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 22 17:09 대한민국 표준시
+End testing: Nov 29 11:24 대한민국 표준시
 
-book =   0.08 sec*proc
+book =   0.07 sec*proc
 
-gtest =   0.04 sec*proc
+gtest =   0.03 sec*proc
 
-unit =   0.08 sec*proc
+unit =   0.07 sec*proc
 

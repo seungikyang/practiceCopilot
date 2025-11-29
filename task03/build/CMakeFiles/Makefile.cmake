@@ -140,7 +140,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake"
-  "C:/___myProject/projects/task03/CMakeLists.txt"
+  "C:/___myProject/practiceCopilot/task03/CMakeLists.txt"
   "CMakeFiles/4.2.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.0/CMakeRCCompiler.cmake"
@@ -154,7 +154,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/googletest-src/googletest/cmake/gtest.pc.in"
   "_deps/googletest-src/googletest/cmake/gtest_main.pc.in"
   "_deps/googletest-src/googletest/cmake/internal_utils.cmake"
-  "C:/___myProject/projects/task03/tests/CMakeLists.txt"
+  "C:/___myProject/practiceCopilot/task03/tests/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

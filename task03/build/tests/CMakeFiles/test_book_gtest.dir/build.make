@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\___myProject\projects\task03
+CMAKE_SOURCE_DIR = C:\___myProject\practiceCopilot\task03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\___myProject\projects\task03\build
+CMAKE_BINARY_DIR = C:\___myProject\practiceCopilot\task03\build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test_book_gtest.dir/depend.make
@@ -73,18 +73,18 @@ tests/CMakeFiles/test_book_gtest.dir/codegen:
 
 tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj: tests/CMakeFiles/test_book_gtest.dir/flags.make
 tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj: tests/CMakeFiles/test_book_gtest.dir/includes_CXX.rsp
-tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj: C:/___myProject/projects/task03/tests/test_book_gtest.cpp
+tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj: C:/___myProject/practiceCopilot/task03/tests/test_book_gtest.cpp
 tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj: tests/CMakeFiles/test_book_gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj"
-	cd /d C:\___myProject\projects\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj -MF CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.obj.d -o CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.obj -c C:\___myProject\projects\task03\tests\test_book_gtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj"
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj -MF CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.obj.d -o CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.obj -c C:\___myProject\practiceCopilot\task03\tests\test_book_gtest.cpp
 
 tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.i"
-	cd /d C:\___myProject\projects\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\___myProject\projects\task03\tests\test_book_gtest.cpp > CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.i
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\___myProject\practiceCopilot\task03\tests\test_book_gtest.cpp > CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.i
 
 tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.s"
-	cd /d C:\___myProject\projects\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\___myProject\projects\task03\tests\test_book_gtest.cpp -o CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.s
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\___myProject\practiceCopilot\task03\tests\test_book_gtest.cpp -o CMakeFiles\test_book_gtest.dir\test_book_gtest.cpp.s
 
 # Object files for target test_book_gtest
 test_book_gtest_OBJECTS = \
@@ -103,19 +103,19 @@ bin/tests/test_book_gtest.exe: lib/libgtest.a
 bin/tests/test_book_gtest.exe: tests/CMakeFiles/test_book_gtest.dir/linkLibs.rsp
 bin/tests/test_book_gtest.exe: tests/CMakeFiles/test_book_gtest.dir/objects1.rsp
 bin/tests/test_book_gtest.exe: tests/CMakeFiles/test_book_gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\___myProject\projects\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\tests\test_book_gtest.exe"
-	cd /d C:\___myProject\projects\task03\build\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_book_gtest.dir\link.txt --verbose=$(VERBOSE)
-	cd /d C:\___myProject\projects\task03\build\tests && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=test_book_gtest -D TEST_EXECUTABLE=C:/___myProject/projects/task03/build/bin/tests/test_book_gtest.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/___myProject/projects/task03/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_book_gtest_TESTS -D CTEST_FILE=C:/___myProject/projects/task03/build/tests/test_book_gtest[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\___myProject\practiceCopilot\task03\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\tests\test_book_gtest.exe"
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_book_gtest.dir\link.txt --verbose=$(VERBOSE)
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=test_book_gtest -D TEST_EXECUTABLE=C:/___myProject/practiceCopilot/task03/build/bin/tests/test_book_gtest.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/___myProject/practiceCopilot/task03/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_book_gtest_TESTS -D CTEST_FILE=C:/___myProject/practiceCopilot/task03/build/tests/test_book_gtest[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test_book_gtest.dir/build: bin/tests/test_book_gtest.exe
 .PHONY : tests/CMakeFiles/test_book_gtest.dir/build
 
 tests/CMakeFiles/test_book_gtest.dir/clean:
-	cd /d C:\___myProject\projects\task03\build\tests && $(CMAKE_COMMAND) -P CMakeFiles\test_book_gtest.dir\cmake_clean.cmake
+	cd /d C:\___myProject\practiceCopilot\task03\build\tests && $(CMAKE_COMMAND) -P CMakeFiles\test_book_gtest.dir\cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_book_gtest.dir/clean
 
 tests/CMakeFiles/test_book_gtest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\projects\task03 C:\___myProject\projects\task03\tests C:\___myProject\projects\task03\build C:\___myProject\projects\task03\build\tests C:\___myProject\projects\task03\build\tests\CMakeFiles\test_book_gtest.dir\DependInfo.cmake "--color=$(COLOR)" test_book_gtest
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\___myProject\practiceCopilot\task03 C:\___myProject\practiceCopilot\task03\tests C:\___myProject\practiceCopilot\task03\build C:\___myProject\practiceCopilot\task03\build\tests C:\___myProject\practiceCopilot\task03\build\tests\CMakeFiles\test_book_gtest.dir\DependInfo.cmake "--color=$(COLOR)" test_book_gtest
 .PHONY : tests/CMakeFiles/test_book_gtest.dir/depend
 

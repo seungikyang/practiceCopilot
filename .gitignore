@@ -1,99 +1,65 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+#######################################################################
+# C/C++ Project - practiceCopilot
+#######################################################################
 
-### VisualStudioCode ###
+#==============================================================================
+# IDE and Editor
+#==============================================================================
+
+### Visual Studio Code ###
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
 .history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Created by https://www.toptal.com/developers/gitignore/api/c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++
+### Other IDEs ###
+.idea/
+*.swp
+*.swo
+*~
 
-### C++ ###
-# Prerequisites
-*.d
+#==============================================================================
+# Build Directories
+#==============================================================================
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+lib/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
 
-# Compiled Object files
+#==============================================================================
+# Compiled Files
+#==============================================================================
+
+### Object Files ###
+*.o
+*.obj
+*.ko
+*.elf
 *.slo
 *.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+### Libraries ###
+*.a
+*.lib
+*.la
 *.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# End of https://www.toptal.com/developers/gitignore/api/c++
-# Created by https://www.toptal.com/developers/gitignore/api/c
-# Edit at https://www.toptal.com/developers/gitignore?templates=c
-
-### C ###
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
+*.dll
 *.dylib
 
-# Executables
+### Executables ###
 *.exe
 *.out
 *.app
@@ -101,14 +67,58 @@
 *.x86_64
 *.hex
 
-# Debug files
+### Precompiled Headers ###
+*.gch
+*.pch
+
+### Debug Files ###
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
+#==============================================================================
+# Build System
+#==============================================================================
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+CMakeUserPresets.json
+Makefile
+*-prefix/
+
+### Testing ###
+Testing/
+DartConfiguration.tcl
+
+### Dependencies ###
+_deps/
+googletest-build/
+googletest-src/
+googletest-subbuild/
+gtest/
+gmock/
+
+#==============================================================================
+# Compiler Artifacts
+#==============================================================================
+*.d
+*.i
+*.ii
+*.s
+*.bc
+*.ilk
+*.map
+*.exp
+*.mod
+*.smod
 *.cmd
 .tmp_versions/
 modules.order
@@ -116,43 +126,114 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# End of https://www.toptal.com/developers/gitignore/api/c
-# Created by https://www.toptal.com/developers/gitignore/api/cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=cmake
+#==============================================================================
+# Testing and Coverage
+#==============================================================================
+*.gcno
+*.gcda
+*.gcov
+*.profdata
+*.profraw
+coverage/
+htmlcov/
+*.lcov
+*.info
 
-### CMake ###
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+#==============================================================================
+# Database Files (SQLite)
+#==============================================================================
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
 
-### CMake Patch ###
-CMakeUserPresets.json
+#==============================================================================
+# Documentation
+#==============================================================================
+docs/html/
+docs/latex/
+docs/xml/
+Doxyfile.bak
 
-# External projects
-*-prefix/
+#==============================================================================
+# Package Managers
+#==============================================================================
+vcpkg_installed/
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
 
-# End of https://www.toptal.com/developers/gitignore/api/cmake
-# Created by https://www.toptal.com/developers/gitignore/api/executable
-# Edit at https://www.toptal.com/developers/gitignore?templates=executable
+#==============================================================================
+# Logs and Output
+#==============================================================================
+*.log
+output.txt
+results.txt
 
-### Executable ###
-*.app
-*.bat
-*.cgi
-*.com
-*.exe
-*.gadget
-*.jar
-*.pif
-*.vb
-*.wsf
+#==============================================================================
+# Temporary and Backup Files
+#==============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
 
-# End of https://www.toptal.com/developers/gitignore/api/executable
+#==============================================================================
+# OS Specific
+#==============================================================================
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Linux ###
+.directory
+.Trash-*
+
+#==============================================================================
+# Project Specific
+#==============================================================================
+
+### Executables ###
+rock_scissors_paper
+rock_scissors_paper.exe
+library
+library.exe
+
+### Test Executables (exclude source files) ###
+test_*
+!test_*.c
+!test_*.cpp
+!test_*.h
+
+#==============================================================================
+# Build Scripts Dependencies
+#==============================================================================
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#==============================================================================
+# End of .gitignore
+#==============================================================================

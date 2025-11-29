@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/___myProject/projects/task03/tests/test_book_gtest.cpp" "tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj" "gcc" "tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj.d"
+  "C:/___myProject/practiceCopilot/task03/tests/test_book_gtest.cpp" "tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj" "gcc" "tests/CMakeFiles/test_book_gtest.dir/test_book_gtest.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
