@@ -267,12 +267,44 @@ TEST_F(GameTest, ParseUserInput_ValidInputs) {
 TEST_F(GameTest, ParseUserInput_InvalidInputs) {
     EXPECT_EQ(CHOICE_INVALID, parse_user_input("invalid"));
     EXPECT_EQ(CHOICE_INVALID, parse_user_input(""));
-    EXPECT_EQ(CHOICE_INVALID, parse_user_input("ROCK"));  // Uppercase
-    EXPECT_EQ(CHOICE_INVALID, parse_user_input("Rock"));  // Mixed case
     EXPECT_EQ(CHOICE_INVALID, parse_user_input("roc"));   // Incomplete
     EXPECT_EQ(CHOICE_INVALID, parse_user_input("rocks")); // Extra character
-    EXPECT_EQ(CHOICE_INVALID, parse_user_input(" rock")); // Leading space
-    EXPECT_EQ(CHOICE_INVALID, parse_user_input("rock ")); // Trailing space
+}
+
+/**
+ * @brief Test parse_user_input accepts uppercase/mixed-case and trimmed spaces
+ */
+TEST_F(GameTest, ParseUserInput_CasingAndWhitespace) {
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input("ROCK"));      // Uppercase
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input("Rock"));      // Mixed case
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input(" rock"));     // Leading space
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input("rock "));     // Trailing space
+    EXPECT_EQ(CHOICE_SPOCK, parse_user_input("  SpOcK  ")); // Mixed + spaces
+}
+
+/**
+ * @brief Test parse_user_input numeric inputs 0-4 and 1-5
+ */
+TEST_F(GameTest, ParseUserInput_NumericInputs) {
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input("0"));
+    EXPECT_EQ(CHOICE_SCISSORS, parse_user_input("1"));
+    EXPECT_EQ(CHOICE_PAPER, parse_user_input("2"));
+    EXPECT_EQ(CHOICE_LIZARD, parse_user_input("3"));
+    EXPECT_EQ(CHOICE_SPOCK, parse_user_input("4"));
+    // 1-5 mapping (only affects input '5')
+    EXPECT_EQ(CHOICE_SPOCK, parse_user_input("5"));
+}
+
+/**
+ * @brief Test parse_user_input Korean aliases
+ */
+TEST_F(GameTest, ParseUserInput_KoreanAliases) {
+    EXPECT_EQ(CHOICE_ROCK, parse_user_input("바위"));
+    EXPECT_EQ(CHOICE_SCISSORS, parse_user_input("가위"));
+    EXPECT_EQ(CHOICE_PAPER, parse_user_input("보"));
+    EXPECT_EQ(CHOICE_LIZARD, parse_user_input("도마뱀"));
+    EXPECT_EQ(CHOICE_SPOCK, parse_user_input("스팍"));
+    EXPECT_EQ(CHOICE_SPOCK, parse_user_input("스포크"));
 }
 
 /**

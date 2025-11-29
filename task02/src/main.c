@@ -20,7 +20,7 @@ static const char* MSG_YOU_LOSE = "You lose!\n";
 static const char* MSG_TIE = "It's a tie!\n";
 
 /* Prompt message constants */
-static const char* PROMPT_CHOICE = "Enter your choice (rock, scissors, paper, lizard, spock): ";
+static const char* PROMPT_CHOICE = "Enter choice [0-4] or name (영문/한글)\n  0: rock/바위\n  1: scissors/가위\n  2: paper/보\n  3: lizard/도마뱀\n  4: spock/스팍\n> ";
 static const char* PROMPT_PLAY_AGAIN = "Do you want to play again? (y/n): ";
 static const char* MSG_COMPUTER_CHOSE = "Computer chose: %s\n";
 

@@ -26,6 +26,9 @@ target_include_directories(game_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 # Create main executable
 add_executable(rock_scissors_paper src/main.c)
 target_link_libraries(rock_scissors_paper game_lib)
+set_target_properties(rock_scissors_paper PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin"
+)
 
 # Google Test setup
 include(FetchContent)

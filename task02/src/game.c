@@ -95,20 +95,66 @@ int parse_user_input(const char* input) {
     if (input == NULL) {
         return CHOICE_INVALID;
     }
+
+    /* Normalize: trim spaces and convert to lowercase copy */
+    char buf[32];
+    size_t len = strlen(input);
+    /* Trim leading/trailing spaces */
+    size_t start = 0;
+    while (start < len && (input[start] == ' ' || input[start] == '\t')) start++;
+    size_t end = len;
+    while (end > start && (input[end - 1] == ' ' || input[end - 1] == '\t')) end--;
+    size_t n = end > start ? (end - start) : 0;
+    if (n >= sizeof(buf)) n = sizeof(buf) - 1;
+    for (size_t i = 0; i < n; ++i) {
+        char c = input[start + i];
+        if (c >= 'A' && c <= 'Z') c = (char)(c - 'A' + 'a');
+        buf[i] = c;
+    }
+    buf[n] = '\0';
     
-    if (strcmp(input, "rock") == 0) {
+    /* Support numeric input: 0-4 or 1-5 mapping to choices */
+    if (buf[0] >= '0' && buf[0] <= '9' && buf[1] == '\0') {
+        int nval = buf[0] - '0';
+        if (nval >= 0 && nval <= 4) {
+            return nval; /* 0-4 maps directly to CHOICE_* */
+        }
+        if (nval >= 1 && nval <= 5) {
+            return nval - 1; /* 1-5 maps to 0-4 */
+        }
+    }
+
+    /* English aliases */
+    if (strcmp(buf, "rock") == 0) {
         return CHOICE_ROCK;
     }
-    if (strcmp(input, "scissors") == 0) {
+    if (strcmp(buf, "scissors") == 0) {
         return CHOICE_SCISSORS;
     }
-    if (strcmp(input, "paper") == 0) {
+    if (strcmp(buf, "paper") == 0) {
         return CHOICE_PAPER;
     }
-    if (strcmp(input, "lizard") == 0) {
+    if (strcmp(buf, "lizard") == 0) {
         return CHOICE_LIZARD;
     }
-    if (strcmp(input, "spock") == 0) {
+    if (strcmp(buf, "spock") == 0) {
+        return CHOICE_SPOCK;
+    }
+
+    /* Korean aliases */
+    if (strcmp(buf, "바위") == 0) {
+        return CHOICE_ROCK;
+    }
+    if (strcmp(buf, "가위") == 0) {
+        return CHOICE_SCISSORS;
+    }
+    if (strcmp(buf, "보") == 0) {
+        return CHOICE_PAPER;
+    }
+    if (strcmp(buf, "도마뱀") == 0) {
+        return CHOICE_LIZARD;
+    }
+    if (strcmp(buf, "스팍") == 0 || strcmp(buf, "스포크") == 0) {
         return CHOICE_SPOCK;
     }
     
